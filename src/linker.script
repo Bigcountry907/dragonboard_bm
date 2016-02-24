@@ -1,0 +1,12 @@
+ENTRY(bm_start)
+
+SECTIONS
+{
+
+    BOOTUP_0 0x90000000: AT(0x90000000){
+        */entry.o( .text )
+        */c_entry.o ( .text)
+        */dragon_uart.o( * )
+    }
+
+}

@@ -1,0 +1,7 @@
+latest_*
+gcc-linaro*
+obj/*
+*.sw*
+bm.bin
+bm.elf
+bm.map

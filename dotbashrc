@@ -1,0 +1,5 @@
+export BM_ROOT=`pwd`
+
+export PATH=$BM_ROOT/tools/latest_aarch64/bin:$PATH
+export PATH=$BM_ROOT/tools/bin:$PATH
+
