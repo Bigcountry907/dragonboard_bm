@@ -16,6 +16,7 @@
 
 // This structure represents the UART used in the dragonboard
 // We only list the registers that we need, rest are marked as reserved
+// We should add volatile to all the variable
 struct DragonUART {
     uint32_t RES0[0x10];
     uint32_t NUM_CHARS_FOR_TX;              // offset: 0x40
